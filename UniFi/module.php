@@ -1954,7 +1954,7 @@ else
 }
 
 ?>';	
-	    $this->CreateScriptByName("switchWlanMode", $instance_WLAN_ID, $ScriptTEXT, $SetHidden = TRUE);
+	    $actionId = $this->CreateScriptByName("switchWlanMode", $instance_WLAN_ID, $ScriptTEXT, $SetHidden = TRUE);
             if (is_object($this->last_results_raw)) {
                 foreach ($this->last_results_raw->data as $wlan) {
                     $ident = $wlan->_id;
