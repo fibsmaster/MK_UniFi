@@ -1,8 +1,8 @@
 {
 	"id": "{2D32C37E-EBC5-4D82-B1DB-F7C7A43400D4}",
-	"author": "Markus Kromberg",
+	"author": "Fibs",
 	"name": "Ubiquiti UniFi Module",
-	"url": "www.markus-kromberg.de",
+	"url": "",
         "compatibility": {
             "version": "4.2",
             "date": 1491343200
